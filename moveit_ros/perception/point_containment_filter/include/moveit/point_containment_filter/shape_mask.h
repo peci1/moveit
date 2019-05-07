@@ -91,7 +91,7 @@ public:
       It is assumed the point is in the frame corresponding to the TransformCallback */
   int getMaskContainment(const Eigen::Vector3d& pt) const;
 
-private:
+protected:
   struct SeeShape
   {
     SeeShape()
